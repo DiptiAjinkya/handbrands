@@ -1,0 +1,61 @@
+/* for left sidebardisplay */
+.sidebar{
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    
+}
+/* for scrollbar width */
+::-webkit-scrollbar{
+    width: 5px;
+}
+/* for scrollbar color */
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+/* for scrollbar movecolor */
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+.sidebarWrapper{
+    padding: 20px;
+
+}
+/* for left sidebardisplay list */
+.sidebarList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+/* for left sidebar display Item inside List*/
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* for left sidebar display Items Icon */
+.sidebarIcon{
+    margin-right: 15px;
+}
+
+/* for showing more components */
+.sidebarButton{
+    width: 100px;
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/* for divide sidebar using line */
+.sidebarHr{
+    margin: 20px 0;
+}
+/* for display Friend List */
+.sidebarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
